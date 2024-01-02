@@ -31,7 +31,7 @@ def input_image_details(uploaded):
 
 #streamlit
 st.set_page_config(page_title="Gemini Image Demo")
-st.header("Gemini Application")
+st.header("Invoice prompts")
 input = st.text_input("Input Prompt",key="input")
 uploaded = st.file_uploader("Choose an image...",type=["jpg","jpeg","png","pdf"])
 image=""
